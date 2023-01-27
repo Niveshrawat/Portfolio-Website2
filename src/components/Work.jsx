@@ -21,15 +21,15 @@ export const Work = () => {
                 <hr className='line3'></hr>
                 <hr className='line4'></hr>
             </div>
-            <div className="details"> 
+            <div className="details" data-aos="fade-up" duration='2000' > 
 
 
-                <div className="left_work">
+                <div className="left_work" data-aos="fade-up">
                     <h2 className='bkl' onClick={() => setActive("amazon")}>Amazon.com</h2>
                     <h2 className='bkl'onClick={() => setActive("tcs")}>TCS.com</h2>
 
                 </div>
-                <div className="right_work">
+                <div className="right_work" data-aos="fade-up">
                     <h2 className='main_title' >
                         {obj[active][0]}
                     </h2>

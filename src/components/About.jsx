@@ -42,9 +42,9 @@ const About = () => {
         </div>
         </div>
         <div className="right_container" data-aos="fade-up">
-          <img className='nivesh_img' data-aos="fade-up" src='https://cdn.discordapp.com/attachments/1059104671911919619/1064591573444218912/Niveshs_Photo.jpeg'/>
-          <div className="right_child" data-aos="fade-up">
-            <div className="child" data-aos="fade-up"></div>
+          <img className='nivesh_img' data-aos="flip-right" data-aos-duration="2000"src='https://cdn.discordapp.com/attachments/1059104671911919619/1064591573444218912/Niveshs_Photo.jpeg'/>
+          <div className="right_child" >
+            <div className="child"></div>
           </div>
             
             

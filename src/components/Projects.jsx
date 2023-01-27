@@ -2,22 +2,24 @@ import React from 'react'
 import { FaGithub } from 'react-icons/fa'
 import './Projects.css'
 // import ProgressLine from "./ProgressLine";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Projects = () => {
   const percentage = 86;
-
+  AOS.init();
   return (
     <div className='pro'>
-      <div className="lklk">
-        <p className='project_heading'>Some Things I've Built</p>
+      <div className="lklk" data-aos="fade-up">
+        <p className='project_heading' data-aos="fade-up">Some Things I've Built</p>
         </div>
 
         <div className="parent_project">
             <div className="left_project">
-                <img className='project_img_one' src="https://cdn.discordapp.com/attachments/1059104671911919619/1068132349658804244/idr_cover_2.jpg"/>
+                <img className='project_img_one'  data-aos="flip-right" data-aos-duration="2000" src="https://cdn.discordapp.com/attachments/1059104671911919619/1068132349658804244/idr_cover_2.jpg"/>
             </div>
-            <div className="right_project">
+            <div className="right_project" data-aos="fade-up">
                 
                 <h2 className='project_name'>
                   IDR Landing Page
@@ -37,9 +39,9 @@ const Projects = () => {
         </div>
         <div className="parent_project2">
             <div className="left_project">
-                <img className='project_img_two' src="https://cdn.discordapp.com/attachments/1059104671911919619/1068132349658804244/idr_cover_2.jpg"/>
+                <img className='project_img_two'  data-aos="flip-right" data-aos-duration="2000" src="https://cdn.discordapp.com/attachments/1059104671911919619/1068132349658804244/idr_cover_2.jpg"/>
             </div>
-            <div className="right_project">
+            <div className="right_project" data-aos="fade-up">
                 
                 <h2 className='project_name2'>
                   Scholarly

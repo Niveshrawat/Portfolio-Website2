@@ -1,8 +1,11 @@
 import React from 'react'
 import './Hire.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Hire = () => {
+  AOS.init();
   return (
-    <div className='hey'>
+    <div className='hey' >
         <div className="parent_hire">
             <h2 className='heading_hire'>
                 What's Next?

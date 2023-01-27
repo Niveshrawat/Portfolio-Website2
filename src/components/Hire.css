@@ -35,6 +35,11 @@
     margin-right: auto;
     text-align: center;
 }
+.hey{
+    z-index:-1;
+    margin-top: 5%;
+    width: 100%;
+}
 @media screen and (max-width: 480px) {
     .desc_hire{
         font-size: 20px;
@@ -42,8 +47,8 @@
     }
     .hey{
         width: 100%;
-        margin-top: 290%;
-        position: absolute;
+        margin-top: 30%;
+        /* position: absolute; */
         z-index: -1;
     }
 }
